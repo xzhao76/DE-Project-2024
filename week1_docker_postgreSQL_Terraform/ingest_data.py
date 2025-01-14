@@ -21,7 +21,7 @@ def main(params):
 
     engine = create_engine(f'postgresql://{user}:{password}@{host}:{port}/{db}')
 #D:\ximin_de_zoomcamp\week1_docker_postgreSQL\green_tripdata_2019-09.csv
-    df_iter = pd.read_csv(f'/app/{csv_name}.csv', iterator=True, chunksize=100000)
+    df_iter = pd.read_csv(f'{csv_name}.csv', iterator=True, chunksize=100000)
     df = next(df_iter)
 
     df.lpep_pickup_datetime = pd.to_datetime(df.lpep_pickup_datetime)
