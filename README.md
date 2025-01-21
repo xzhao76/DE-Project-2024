@@ -1,4 +1,5 @@
-# DE Zoomcamp 2024
+# DE Zoomcamp 2025 Repo
+
 ## Week 1 HW: Code scripts in the hw1 markdown file
 
 ## Week 2 HW: Kestra Code for importing 2019, 2020 and 2021 yello/green taxi data into GCP
