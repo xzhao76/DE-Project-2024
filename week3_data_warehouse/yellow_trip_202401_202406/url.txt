@@ -1,0 +1,14 @@
+https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2024-01.parquet
+https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2024-02.parquet
+https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2024-03.parquet
+https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2024-04.parquet
+https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2024-05.parquet
+https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2024-06.parquet
+
+# Download parquet files to local
+wget -i url.txt -P D:/DE-Project-2024/week3_data_warehouse/yellow_trip_202401_202406/
+
+# Upload into Google Cloud Bucket
+gcloud init
+gsutil cp D:/DE-Project-2024/week3_data_warehouse/yellow_trip_202401_202406/*.parque
+t gs://dezc_xmz_01262025/
