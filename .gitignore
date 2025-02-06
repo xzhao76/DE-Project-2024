@@ -19,14 +19,15 @@ Thumbs.db
 *.pyo
 __pycache__/
 
-# Ignore .csv or .xlsx files 
+# Ignore .csv or .xlsx or .parquet files 
 
 *.csv
 *.xlsx
-
+*.parquet
 # Ignore service account key files
 *.json
 
 # 忽略IDE配置文件
 .vscode/
 .idea/
+
