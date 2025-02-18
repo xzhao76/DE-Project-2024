@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: staging
+    database: xzde-012625
+    schema: nytaxi
+
+    tables:
+      - name: green_trip_data_2019_2020
+      - name: yellow_trip_data_2019_2020
