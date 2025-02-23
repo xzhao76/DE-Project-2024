@@ -6,7 +6,7 @@
 
 with green_tripdata as (
     select *,
-            'Green' as service_tye
+            'Green' as service_type
     from {{ref('stg_green_trip_data')}}
 ),
 yellow_tripdata as (
@@ -26,6 +26,7 @@ dim_zones as (
 select 
     trips_unioned.tripid, 
     trips_unioned.vendorid, 
+    trips_unioned.service_type,
     trips_unioned.ratecodeid, 
     trips_unioned.pickup_locationid, 
     pickup_zone.borough as pickup_borough, 
