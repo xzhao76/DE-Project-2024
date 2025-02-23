@@ -1,4 +1,5 @@
 *.csv
+!DE-Project-2024/week4_analyhtics_engineering/taxi_rides_ny/seeds/taxi_zone_lookup.csv
 *.exe
 *.xlsx
 *.tar
