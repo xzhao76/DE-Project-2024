@@ -200,7 +200,7 @@ Now...
 
 For the Trips that **respectively** started from `Newark Airport`, `SoHo`, and `Yorkville East`, in November 2019, what are **dropoff_zones** with the 2nd longest p90 trip_duration ?
 
-'''
+```
 WITH trip_durations AS (
     SELECT 
         year_ind, 
@@ -227,7 +227,7 @@ FROM ranked_trips
 WHERE rank_num = 2
 ORDER BY year_ind, month_ind, p90 DESC);
 
-'''
+```
 
 - LaGuardia Airport, Chinatown, Garment District (Check, I didn't get exact answer for this one)
 - LaGuardia Airport, Park Slope, Clinton East
