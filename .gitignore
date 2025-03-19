@@ -27,6 +27,7 @@ __pycache__/
 *.parquet
 # Ignore service account key files
 *.json
+*.txt
 
 # 忽略IDE配置文件
 .vscode/
